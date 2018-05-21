@@ -1,5 +1,5 @@
 PROJECT1:Movie-trailer
-     The project demonstrates the use of a Movie object class in Python to generate a static webpage, which displays a listing of favorite movies and links each movie to its trailers video on YouTube.
+     This project demonstrates the use of a Movie object class in Python to generate a static webpage, which displays a listing of favorite movies and links each movie to its trailers video on YouTube.
    If we click on poster we get an youtube trailer of that movie. The project also includes some CSS and jQuery involved in the display of the webpage.
  First we create a html fileand apply some styles using CSS. Put that HTML file inside freshtomatoes.py file.
  FOR SERVER SIDE RUNNING 
