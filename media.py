@@ -18,8 +18,8 @@ class Movie():
         self.title = movie_title
         self.storyline = movie_storyline
         self.poster_image_url = poster_image
-        self.trailer_yout_url = trailer_youtube
+        self.trailer_yout_url = trailer_yout
 
     def show_trailer(self):
         """ Opens trailer in a web browser """
-        webbrowser.open(self.trailer_youtube_url)
+        webbrowser.open(self.trailer_yout_url)
