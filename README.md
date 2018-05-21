@@ -5,9 +5,9 @@ listing  of favorite movies and links each movie to its trailers video on YouTub
  First we create a html fileand apply some styles using CSS. Put that HTML file inside freshtomatoes.py file.
  FOR SERVER SIDE RUNNING 
 Here we are using three python files for running the program in serverside.
-They are
-i)media.py
-ii)center.py
+They are  
+i)media.py  
+ii)center.py  
 iii)freshtomatoes.py
 
 ## MEDIA.PY
