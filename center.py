@@ -1,6 +1,13 @@
 import media
 import fresh_tomatoes
 
+"""
+declare favorite movies, with 4 args each:
+title (movie's title)
+storyline (summery of the ovie)
+poster_image (url to poster image)
+trailer_yout (url to youtube trailer)
+"""
 walle = media.Movie(
   "Wall-e",
   "Robot left on earth",
@@ -32,5 +39,8 @@ bahubali2 = media.Movie(
   "https://images-na.ssl-images-amazon.com/images/I/61fhQI78YpL._SY550_.jpg",
   "http://www.youtube.com/embedded/G62HrubdD6o")
 
+# assign individual movies to movies list
 movies = [walle, harrypoter, bagamathi, inception, toliprema, bahubali2]
+
+# call movie trailer page method and pass movies list and sorting option
 fresh_tomatoes.open_movies_page(movies)
