@@ -3,7 +3,7 @@
 listing  of favorite movies and links each movie to its trailers video on YouTube.If we click on poster we get an youtube      trailer of that movie. The project also includes some CSS and jQuery involved in the display of the webpage.
 ### STEPS:   
  First we create a html fileand apply some styles using CSS. Put that HTML file inside freshtomatoes.py file.
- FOR SERVER SIDE RUNNING 
+### FOR SERVER SIDE RUNNING:  
 Here we are using three python files for running the program in serverside.  
 They are  
 i)media.py  
