@@ -36,15 +36,12 @@ main_page_head='''
             flex-wrap: wrap;
             display: flex;
             flex: 10%;
-            justify-content: center;
-            
+            justify-content: center;            
         }
-
         body {
             margin: 0;
             background-color:#eee;
         }
-
         h1 {
             color: lightseagreen;
             background-color: olivedrab;
@@ -53,7 +50,6 @@ main_page_head='''
             font-size: 40px;
             font-family: 'cursive', cursive;
         }
-
         img {
             height: 400px;
             width: 250px;
@@ -70,7 +66,6 @@ main_page_head='''
         }
 
         .t1 {
-
             padding-top: 30px;
             padding-left: 50px;
             padding-bottom: 30px;
@@ -172,9 +167,7 @@ main_page_content='''
         </div>
     </main>
 </body>
-
 </html>
-
 '''
 movie_title_content='''
 <div class="col-md-6 col-lg-4 movie-title text-center" data-trailer-youtube-
@@ -183,8 +176,6 @@ id="{trailer_youtube_id}" data-toggle="modal" data-target="#trailer">
    <h2 style="color:white;">{movie_title}</h2>
 </div>
 '''
-
-
 def create_movie_titles_content(movies):
     content=''
     for movie in movies:
@@ -197,8 +188,7 @@ def create_movie_titles_content(movies):
             poster_image_url=movie.poster_image_url,
             trailer_youtube_id=trailer_youtube_id
             )
-        return content
-    
+        return content    
 def open_movies_page(movies):
     output_file=open('fresh_tomatoes.html','w')
     rendered_content=main_page_content.format(
