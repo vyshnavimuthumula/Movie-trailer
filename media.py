@@ -9,7 +9,7 @@ class Movie():
     def __init__(self,
                  movie_title, movie_storyline, poster_image, trailer_yout):
         """ Inits a Movie object
-        Args:
+        Arguments:
         movie_title = a string of the movie's title
         movie_storyline = summery of the movie
         poster_image = a string containing a URL to a poster image
