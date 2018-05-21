@@ -57,7 +57,7 @@ main_page_head = '''
         .t2:hover,
         .t3:hover,
         .t4:hover,
-    .t5:hover,
+        .t5:hover,
         .t6:hover
          {
             background-color: lightseagreen;
