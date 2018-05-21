@@ -11,7 +11,7 @@ trailer_yout (url to youtube trailer)
 walle = media.Movie(
   "Wall-e",
   "Robot left on earth",
-  "https://images-na.ssl-images-amazon.com/images/I/51RoZRgIHtL.jpg",
+  "https://bit.ly/2kf4PpP",
   "https://www.youtube.com/embed/ZisWjdjs-gM")
 harrypoter = media.Movie(
   "Harrypoter",
@@ -26,17 +26,17 @@ bagamathi = media.Movie(
 inception = media.Movie(
   "Inception",
   "In dream story",
-  "https://images-na.ssl-images-amazon.com/images/I/61Ug%2BK8o5FL.jpg",
+  "https://bit.ly/2LjqGJ5",
   "https://www.youtube.com/embed/d3A3-zSOBT4")
 toliprema = media.Movie(
   "Toliprema",
   "firstlove",
-  "https://www.comingtrailer.com/images/poster/Tholi-Prema7.jpg",
+  "https://bit.ly/2s1ikNk",
   "https://www.youtube.com/embed/-kFvrsAgp3M")
 bahubali2 = media.Movie(
   "Bahubali2",
   "old",
-  "https://images-na.ssl-images-amazon.com/images/I/61fhQI78YpL._SY550_.jpg",
+  "https://bit.ly/2IWZFg8",
   "http://www.youtube.com/embedded/G62HrubdD6o")
 
 # assign individual movies to movies list
