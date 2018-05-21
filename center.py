@@ -6,7 +6,7 @@ declare favorite movies, with 4 args each:
 title (movie's title)
 storyline (summery of the ovie)
 poster_image (url to poster image)
-trailer_yout (url to youtube trailer)
+trailer_youtube (url to youtube trailer)
 """
 walle = media.Movie(
   "Wall-e",
