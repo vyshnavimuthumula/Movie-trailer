@@ -120,7 +120,7 @@ main_page_content = '''
                 </figcaption>
             </div>
             <div class = "t2" onclick = "changeVideo('Jt1Nv-8_-cg')">
-                <img src = "https://bit.ly/2s2zHNF6" alt="Haripoter">
+                <img src = "https://bit.ly/2IDio0E" alt="Haripoter">
                 <figcaption style = "text-align: center; color: white;">
                     <b>Haripoter</b>
                 </figcaption>
