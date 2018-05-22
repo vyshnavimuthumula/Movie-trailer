@@ -2,7 +2,9 @@ import webbrowser
 
 
 class Movie():
-    """ Class for representing a movie """
+    """ This class stores movie data such as the title,
+    story line, poster image, and trailer.
+    We can also give ratings for the movie using lists"""
 
     VALID_RATINGS = ["EXCELLENT", "GOOD", "BAD", "AVERAGE"]
 
