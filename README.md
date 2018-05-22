@@ -6,9 +6,9 @@ listing  of favorite movies and links each movie to its trailers video on YouTub
 ### FOR SERVER SIDE RUNNING:  
 Here we are using three python files for running the program in serverside.  
 They are  
-i)media.py  
-ii)center.py  
-iii)freshtomatoes.py
+i)media.py                                      
+ii)center.py          
+iii)freshtomatoes.py                      
 
 ### MEDIA.PY
    The movie class in the movie.py creates a data structure to store your favorite movies, including movie title,image url and youtube link to the movie trailer.
