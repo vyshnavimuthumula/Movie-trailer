@@ -44,4 +44,3 @@ movies = [walle, harrypoter, bagamathi, inception, toliprema, bahubali2]
 
 # call movie trailer page method and pass movies list and sorting option
 fresh_tomatoes.open_movies_page(movies)
-
