@@ -23,11 +23,11 @@ iii)freshtomatoes.py
   ### Process For server side running                     
   i)In windows       
      Go to the cgi-bin where our project is present and open terminal then type         
-       #### python -m http.server --cgi 8888       
+                 python -m http.server --cgi 8888       
      8888 is a port numberand we can write any port number.
    ii)In Linux                                       
       Go to outside of cgi-bin and open terminal then type                    
-       #### python -m CGIHTTPServer 8888                          
+                 python -m CGIHTTPServer 8888                          
   after running this file in server side an html file is created outside the bin .                   
   After running server go to the webbrowser and type localhost:8888.                           
   Then it displays cgi-bin click on it and open center.py finally our project will display on the browser.                     
