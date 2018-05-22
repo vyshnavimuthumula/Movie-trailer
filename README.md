@@ -20,7 +20,7 @@ iii)freshtomatoes.py
    This file has a function called open_movies_Page that takes one argument, which is a list movie trailers and data about movie.
   These three files are kept inside cgi-bin folder. (Because all python files are kept inside the python file)
    1)If we run center.py file in shell automatically a webpage will open and html file was created inside the bin.
-  ### Process For server side running                     
+  ### Process for server side running using python                   
   i)In windows       
      Go to the cgi-bin where our project is present and open terminal then type         
                  python -m http.server --cgi 8888       
