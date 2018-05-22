@@ -31,10 +31,10 @@ iii)freshtomatoes.py
   after running this file in server side an html file is created outside the bin .                                           
   After running server go to the webbrowser and type localhost:8888.                           
   Then it displays cgi-bin click on it and open center.py finally our project will display on the browser.                    
-  ## With the terminal:                         
+  ## With the terminal:(simply)                         
 Clone the directory                                       
 Navigate to the directory cd repository_name                                       
-Run python entertainment_center.py                     
+Run python center.py                     
 IDLE:
 Open IDLE                                                                   
 In the menu bar click on Run -> Run Module or press F5 on your keyboard
