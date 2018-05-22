@@ -13,7 +13,7 @@ class Movie():
         movie_title = a string of the movie's title
         m_storyline = summery of the movie
         poster_image = a string containing a URL to a poster image
-        trailer_youtube = a string containing a youtube URL of the movie's trailer
+        trailer_youtube = a string containing a youtube URL of the movietrailer
         """
         self.title = movie_title
         self.storyline = m_storyline
