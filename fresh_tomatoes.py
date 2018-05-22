@@ -7,12 +7,17 @@ main_page_head = '''
 <head>
    <title>Movie Trailers</title>
 <meta name = "viewport" content = "width=device-width, initial-scale = 1.0">
-<script src = "https://code.jquery.com/jquery-1.12.3.min.js" integrity = "sha256-aaODHAgvwQW1bFOGXMeX+pC4PZIPsvn2h1sArYOhgXQ="
+<script src = "https://code.jquery.com/jquery-1.12.3.min.js"
+    integrity = "sha256-aaODHAgvwQW1bFOGXMeX+pC4PZIPsvn2h1sArYOhgXQ="
     crossorigin = "anonymous"></script>
-    <link href = "https://fonts.googleapis.com/css?family = Courgette" rel = "stylesheet">
-    <link rel = "stylesheet" href = "https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    <link href = "https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" rel = "stylesheet" type = "text/css" />
-<script src = "https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+    <link href = "https://fonts.googleapis.com/css?family = Courgette"
+    rel = "stylesheet">
+    <link rel = "stylesheet" href = "https://cdnjs.cloudflare.com/ajax/"
+    "libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href = "https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/"
+    "css/bootstrap.min.css" rel = "stylesheet" type = "text/css" />
+<script src = "https://maxcdn.bootstrapcdn.com/bootstrap/"
+"3.3.6/js/bootstrap.min.js"></script>
     <script>
         $(document).ready(function () {
             $("#myVideo").on("hidden.bs.modal", function () {
@@ -150,14 +155,18 @@ main_page_content = '''
                 </figcaption>
             </div>
         </div>
-        <div class="modal fade" id="myVideo" tabindex="1" role="dialog" aria-labelledby="myModalLabel">
+        <div class="modal fade" id="myVideo" tabindex="1"
+        role="dialog" aria-labelledby="myModalLabel">
             <div class="modal-dialog" role="document">
                 <div class="modal-content">
                     <div class="modal-footer">
-                        <button type="button" class="fa fa-close" data-dismiss="modal"></button>
+                        <button type="button" class="fa fa-close"
+                        data-dismiss="modal"></button>
                     </div>
                     <div class="modal-body">
-                        <iframe id="myframeY" width="100%" height="350px" src="" frameborder="0" allowfullscreen></iframe>
+                        <iframe id="myframeY" width="100%" height="350px"
+                        src=""
+                        frameborder="0" allowfullscreen></iframe>
                     </div>
                 </div>
             </div>
@@ -180,8 +189,10 @@ def create_movie_titles_content(movies):
     content = ''
     for movie in movies:
         # Extract the youtube ID from the url
-        youtube_id_match = re.search(r'(?<=v=)[^&#]+', movie.trailer_youtube_url)
-        youtube_id_match = youtube_id_match or re.search(r'(?<=be/)[^&#]+', movie.trailer_youtube_url)
+        youtube_id_match = re.search(r'(?<=v=)[^&#]+',
+                                     movie.trailer_youtube_url)
+        youtube_id_match = youtube_id_match or re.search(
+                           r'(?<=be/)[^&#]+', movie.trailer_youtube_url)
         trailer_youtube_id = (youtube_id_match.group(0) if youtube_id_match
                               else None)
         # Append the tile for the movie with its content filled in
