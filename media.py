@@ -3,11 +3,9 @@ import webbrowser
 
 class Movie():
     """ This class stores movie data such as the title,
-    story line, poster image, and trailer.
-    We can also give ratings for the movie using lists"""
+    story line, poster image, and trailer."""
 
-    VALID_RATINGS = ["EXCELLENT", "GOOD", "BAD", "AVERAGE"]
-
+   
     def __init__(self,
                  movie_title, m_storyline, poster_image, trailer_youtube):
         """ Inits a Movie object
